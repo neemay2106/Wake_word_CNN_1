@@ -1,5 +1,6 @@
-**Wake Word Detection using CNN**
-Dataset
+#**Wake Word Detection using CNN**
+
+**Dataset**
 
 This project uses the Google Speech Commands Dataset, sourced from Kaggle:
 https://www.kaggle.com/datasets/neehakurelli/google-speech-commands
@@ -11,7 +12,7 @@ https://www.kaggle.com/datasets/javohirtoshqorgonov/noise-audio-data
 
 Augmenting the dataset with diverse background noise helps improve generalization and reduces false positives in real-world deployment scenarios.
 
-Feature Extraction
+**Feature Extraction**
 
 Mel-Frequency Cepstral Coefficients (MFCCs) were used as the primary feature representation. MFCCs are well-suited for speech recognition tasks because:
 
@@ -29,7 +30,7 @@ https://youtu.be/iCwMQJnKk2c?si=9HG2GvISXJCjSV_T
 Step-by-step explanation of MFCC computation:
 https://www.geeksforgeeks.org/nlp/mel-frequency-cepstral-coefficients-mfcc-for-speech-recognition/
 
-Model Architecture
+**Model Architecture**
 
 A Convolutional Neural Network (CNN) was chosen for this task. CNNs are particularly effective for audio classification when features are represented as time-frequency maps (such as MFCCs), as they can learn spatially local and hierarchical patterns.
 
